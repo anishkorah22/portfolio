@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 150vh;
+}
+.outline{
+    display: flex;
+    height: 100%;
+}
+.leftbox{
+    border: 2px solid white;
+    width: 45%;
+    height: 100%;
+}
+.rightbox{
+    border: 2px solid white;
+    width: 55%;
+    height: 100%;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 50%;
+    
+}
+
+.intro{
+    display: flex;
+    font-family: Russo one;
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    color: white;
+    justify-content: center;
+    transition: all 1s ease-in-out ;
+}
+.intro:hover{
+    transform: scale(1.1);
+    color: rgb(149, 168, 116);
+}
+span{
+    font-size: medium;
+}
+.navbar a{
+    font-family: Russo one;
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    transition: all 1ms ease-in ;
+    
+
+}
+.navbar{
+    padding-top: 50px;
+    
+}
+.navbar a:hover{
+    color: rgb(149, 168, 116);
+    transform: scale(1.1);
+
+    
+}
+.intro1{
+    font-family: Russo one;
+    font-size: medium;
+    color: white;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.icons img{
+    width: 50px;
+    height: 40px;
+    color:white;
+}
+
