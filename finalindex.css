@@ -1,0 +1,395 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    
+}
+*{
+    margin: 0;
+}
+.left{
+    position: fixed;
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+    width: 45%;
+    height: 150vh;
+    
+}
+.right{
+    top: 0;
+    left: 45%;
+    position:absolute;
+    background-color: white;
+    height: 100vh;
+    width: 55%;
+    background-color: black;
+    
+}
+img{
+    
+    width: 140px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 26px;
+    border-radius: 50%;
+    
+    
+}
+
+.intro{
+    
+    display: flex;
+    font-family: Russo one;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-top: 30px;
+    /* margin-left: 50px; */
+    color: white;
+    justify-content: center;
+    transition: all 1s ease-in-out ;
+}
+.intro:hover{
+    transform: scale(1.1);
+    color: rgb(149, 168, 116);
+}
+span{
+    
+    font-size: medium;
+}
+.navbar a{
+    font-family: Russo one;
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    padding: 23px;
+    transition: all 1ms ease-in ;
+    
+
+}
+.navbar{
+   
+    padding-top: 50px;
+    padding-bottom: 45px;
+    
+}
+.navbar a:hover{
+    color: rgb(149, 168, 116);
+    transform: scale(1.1);
+
+    
+}
+.intro1{
+    
+    font-family: Russo one;
+    font-size: medium;
+    color: white;
+    margin-top: 100px;
+    margin-left: 27px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    color:white;
+    border-radius: 0%;
+    
+}
+.icons{
+    
+    padding: 30px 150px;
+}
+.icons img:hover{
+    transform: scale(1.1);
+    color: rgb(149, 233, 3);
+}
+.about{
+    height: 250px;
+    width: 60%;
+    background-color: white;
+    box-sizing: border-box;
+    /* box-shadow: 5px 1px 1px 10px rgb(224, 223, 223); */
+    color: black;
+    font-family: Russo one;
+    border-radius: 15px;
+    padding: 20px 20px 50px 20px;
+    margin: 200px auto;
+    opacity: 40%;
+    transition: all 1s ease ;
+    overflow: hidden;
+}
+.about:hover{
+    margin: 100px auto;
+    opacity: 70%;
+    transform: scale(1.1);
+    background-image: url("assets/shared\ image.jpg");
+    background-size: cover;
+    height: 500px;
+    color: rgb(28, 28, 29);
+    
+}
+.education{
+    color: white;
+    background-color: black;
+    
+    padding-top: 40px;
+    padding-right: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-family: Russo one;
+    padding-bottom: 50px;
+    
+}
+.education h1{
+    padding-left: 260px;
+    padding-top: 40px;
+    
+}
+.ten{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 300px;
+    align-content: center;
+    text-align: center;
+    margin-left: 120px;
+    opacity: 40%;
+    transition: all 1s ease-in;
+    gap: 10px;
+    
+}
+.twelve{
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    height: 100px;
+    width: 400px;
+    margin-left: 120px;
+    opacity: 40%;
+    text-align: center;
+    transition: all 1s ease-in;
+
+}
+.degree{
+    background-color: rgb(255, 255, 255);
+   
+    align-content: center;
+    height: 100px;
+    text-align: center;
+    width: 500px;
+    margin-left: 120px;
+    opacity: 40%;
+    transition: all 1s ease-in;
+
+}
+.ten:hover{
+    background-color:red;
+    opacity: 100%;
+}
+.twelve:hover{
+    opacity: 100%;
+    background-color: red;
+}
+.degree:hover{
+    opacity: 100%;
+    background-color: red;
+}
+
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: black;
+    font-family: Russo one;
+    padding-bottom: 50px;
+  }
+
+  .skills-container .technical,
+  .skills-container .softskills {
+    width: calc(50% - 20px); /* Adjust as needed */
+    /* padding: 20px; */
+    background-color: #181616;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    .skills-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .skills-container .technical,
+  .skills-container .softskills {
+    width: calc(50% - 20px); /* Adjust as needed */
+    padding: 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    height: 150px;
+  }
+
+  .skills-container .technical:hover,
+  .skills-container .softskills:hover {
+    background-color: #ccc;
+  }
+
+  .skills-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills-container ul li {
+    margin-bottom: 5px;
+  }
+
+  .skills-container .list-container {
+    display: none;
+  }
+
+  .skills-container .technical:hover .list-container,
+  .skills-container .softskills:hover .list-container {
+    display: block;
+  }
+  }
+
+  .skills-container .technical:hover,
+  .skills-container .softskills:hover {
+    background-color: #ccc;
+  }
+
+  .skills-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .skills-container ul li {
+    margin-bottom: 5px;
+  }
+
+  .skills-container .list-container {
+    display: none;
+  }
+
+  .skills-container .technical:hover .list-container,
+  .skills-container .softskills:hover .list-container {
+    display: block;
+  }
+  .skillhead{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-family: Russo one;
+    margin: 0;
+    
+  }
+  .technical ul li {
+    display: inline-block; /* Display items in a row */
+    margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.technical ul li img {
+    width: 50px; /* Adjust icon size as needed */
+    height: 50px;
+}
+  
+
+  hr{
+    border: 2px solid white;
+  }
+  .list-container img{
+    height: 50px;
+    width: 50px;
+  }
+  .list-container{
+    display: grid;
+  }
+  .projects{
+    padding-top: 50px;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    padding-bottom: 90px;
+    font-family: russo one;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+    
+  }
+  .projecthead{
+    background-color: black;
+    color: white;
+    padding-left: 280px;
+    padding-top: 60px;
+    font-family: Russo one;
+    
+    
+  }
+  .project1{
+    margin-top: 20px;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 300px;
+    height: 245px;
+    color: black;
+    text-align: justify;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    opacity: 50%;
+    padding: 10px 10px;
+    
+  }
+  .project2{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 300px;
+    height: 245px;
+    color: black;
+    text-align: justify;
+    overflow: hidden;
+    opacity: 50%;
+    transition: all 1s ease-in-out;
+    padding: 10px 10px;
+  }
+  .project1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+  }
+  .project2 img{
+    width: 200px;
+    
+    height: 200px;
+    border-radius: 20px;
+
+  }
+  .project1:hover{
+    height: 750px;
+    opacity: 100%;
+  }
+  .project2:hover{
+    height: 750px;
+    opacity: 100%;
+  }
+  .contacts{
+    color: white;
+    background-color: black;
+    font-family: Russo one;
+    padding-top: 60px;
+    padding-left: 240px;
+    padding-bottom: 50px;
+  }
+  .submit{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: Russo one;
+  }
