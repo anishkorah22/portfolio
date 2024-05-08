@@ -4,6 +4,7 @@
     display: flex;
     position: relative;
     
+    
 }
 *{
     margin: 0;
@@ -116,6 +117,7 @@ span{
     opacity: 40%;
     transition: all 1s ease ;
     overflow: hidden;
+    
 }
 .about:hover{
     margin: 100px auto;
@@ -152,7 +154,7 @@ span{
     align-content: center;
     text-align: center;
     margin-left: 120px;
-    opacity: 40%;
+    opacity: 20%;
     transition: all 1s ease-in;
     gap: 10px;
     
@@ -163,7 +165,7 @@ span{
     height: 100px;
     width: 400px;
     margin-left: 120px;
-    opacity: 40%;
+    opacity: 20%;
     text-align: center;
     transition: all 1s ease-in;
 
@@ -176,21 +178,21 @@ span{
     text-align: center;
     width: 500px;
     margin-left: 120px;
-    opacity: 40%;
+    opacity: 20%;
     transition: all 1s ease-in;
 
 }
 .ten:hover{
-    background-color:red;
-    opacity: 100%;
+    background-color:rgb(0, 0, 0);
+    opacity: 90%;
 }
 .twelve:hover{
-    opacity: 100%;
-    background-color: red;
+    opacity: 90%;
+    background-color: rgb(0, 0, 0);
 }
 .degree:hover{
-    opacity: 100%;
-    background-color: red;
+    opacity: 90%;
+    background-color: rgb(0, 0, 0);
 }
 
   .skills-container {
@@ -202,13 +204,15 @@ span{
     background-color: black;
     font-family: Russo one;
     padding-bottom: 50px;
+  
   }
 
   .skills-container .technical,
   .skills-container .softskills {
     width: calc(50% - 20px); /* Adjust as needed */
     /* padding: 20px; */
-    background-color: #181616;
+    background-color: rgb(255, 255, 255);
+    opacity: 10%;
     cursor: pointer;
     transition: background-color 0.3s;
     .skills-container {
@@ -216,22 +220,28 @@ span{
     justify-content: space-between;
     width: 600px;
     margin: 0 auto;
+  
   }
 
   .skills-container .technical,
   .skills-container .softskills {
     width: calc(50% - 20px); /* Adjust as needed */
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: rgb(255, 255, 255);
+    opacity: 40%;
     cursor: pointer;
     transition: background-color 0.3s;
     border-radius: 5px;
     height: 150px;
+    
+    
   }
 
   .skills-container .technical:hover,
   .skills-container .softskills:hover {
-    background-color: #ccc;
+    background-color: rgb(255, 255, 255);
+    opacity:100%;
+    
   }
 
   .skills-container ul {
@@ -251,12 +261,15 @@ span{
   .skills-container .technical:hover .list-container,
   .skills-container .softskills:hover .list-container {
     display: block;
+    
+
   }
   }
 
   .skills-container .technical:hover,
   .skills-container .softskills:hover {
-    background-color: #ccc;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
   }
 
   .skills-container ul {
@@ -276,6 +289,7 @@ span{
   .skills-container .technical:hover .list-container,
   .skills-container .softskills:hover .list-container {
     display: block;
+    
   }
   .skillhead{
     color: white;
@@ -287,13 +301,15 @@ span{
     margin: 0;
     
   }
+  
   .technical ul li {
-    display: inline-block; /* Display items in a row */
-    margin-right: 10px; /* Adjust spacing between icons */
+    display: inline-block; 
+    margin-right: 10px; 
+    
 }
 
 .technical ul li img {
-    width: 50px; /* Adjust icon size as needed */
+    width: 50px; 
     height: 50px;
 }
   
@@ -328,6 +344,7 @@ span{
     padding-left: 280px;
     padding-top: 60px;
     font-family: Russo one;
+    padding-bottom: 15px;
     
     
   }
@@ -393,3 +410,33 @@ span{
     margin-top: 20px;
     font-family: Russo one;
   }
+  .right{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+  }
+  .education{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+  }
+  .skills-container{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+  }
+  .projects{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+  }
+  .contacts{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+  }
+  .skillhead{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+  } 
+   .projecthead{
+    background-image: url("assets/jake-buonemani-WvK0EsbfG7U-unsplash.jpg");
+    background-size: cover;
+    padding-bottom: 10px;
+  } 
+  
